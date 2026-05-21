@@ -3,11 +3,12 @@
 }
 
 .td-sidebar {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 #td-sidebar-menu {
-  height: calc(100vh - 6rem);
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
 }
 
 .td-sidebar-toc {
@@ -86,6 +87,10 @@
   .td-navbar .navbar-nav {
     flex-direction: row;
     padding: 0;
+  }
+
+  .navbar-brand {
+	  font-size: 1rem;
   }
 
   .td-content {
