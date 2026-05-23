@@ -1,8 +1,7 @@
 {
-  "name": "tech-doc-hugo",
-  "version": "0.0.1",
-  "description": "Hugo theme for technical documentation.",
-  "main": "none.js",
+  "name": "cdf-ci-cd-cybersecurity",
+  "version": "1.0.0",
+  "description": "CDF CI/CD Cybersecurity Guide",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
